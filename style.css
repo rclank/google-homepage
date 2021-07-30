@@ -7,6 +7,15 @@ html, body {
 body {
     font-family: Roboto,arial,sans-serif;
     font-size: 14px;
+    background: #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #all {
@@ -15,12 +24,38 @@ body {
     align-items: center;
     height: 100%;
     background-color: black;
-
 }
 
 nav {
+    background-color: coral;
+    width: 100%;
+}
+
+nav div {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+#nav-wrapper {
+    height: 60px;
+    padding: 6px;
+}
+
+#nav-left {
+    flex-grow: 0;
+    background-color: cornsilk;
+}
+
+#nav-left a {
+    padding: 5px;
+    color: #222222;
+}
+
+#nav-right {
+    flex-grow: 1;
+    background-color: cornflowerblue;
+    justify-content: flex-end;
 }
 
 footer {
@@ -32,13 +67,6 @@ footer {
     width: 100%;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 #logo {
     display: flex;
