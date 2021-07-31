@@ -10,6 +10,10 @@ body {
     background: #ffffff;
 }
 
+div {
+    box-sizing: border-box;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -58,15 +62,27 @@ nav div {
     justify-content: flex-end;
 }
 
+.right-nav {
+    color: #000000DE;
+}
+
+.material-icons {
+    color: #5f6368;
+}
+
+#sign-in {
+    color: #ffffff;
+    padding: 9px 23px;
+    text-decoration: none;
+    background-color: #1a73e8;
+}
+
 footer {
     background-color: #f2f2f2;
-    /* display: flex;
-    flex-wrap: wrap; */
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
 
 #logo {
     display: flex;
