@@ -31,7 +31,7 @@ a:hover {
 }
 
 nav {
-    background-color: coral;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -48,7 +48,7 @@ nav div {
 
 #nav-left {
     flex-grow: 0;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 }
 
 #nav-left a {
@@ -58,22 +58,31 @@ nav div {
 
 #nav-right {
     flex-grow: 1;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     justify-content: flex-end;
 }
 
 .right-nav {
     color: #000000DE;
+    font-size: 13px;
+}
+
+#images {
+    padding: 0px 15px;
 }
 
 .material-icons {
     color: #5f6368;
+    padding: 8px;
 }
 
 #sign-in {
     color: #ffffff;
     padding: 9px 23px;
     text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0px 8px;
     background-color: #1a73e8;
 }
 
