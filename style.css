@@ -142,6 +142,7 @@ nav div {
 
 #search-input {
     border: none;
+    outline: none;
     height: 34px;
     width: 100%;
 }
