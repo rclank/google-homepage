@@ -1,1 +1,3 @@
 This will be my attempt at recreating the Google search page in HTML and CSS. I feel very under-prepared.
+
+After completion of a first draft, this was a knock-down, drag-out project. My process was built entirely on using developer tools to see how Google had done it, which consisted almost entirely of divs and flexboxes. I got to a finished product and learned a lot along the way (ample Google-fu applied), but I definitely still don't know much about HTML/CSS. Not without tinkering.
